@@ -1,0 +1,229 @@
+# Problem statement — do not commit
+Problem Statement*.md
+
+# ============================================================
+# OS
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# IDEs & Editors
+# ============================================================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+*.iws
+*.ipr
+.fleet/
+.cursor/
+
+# ============================================================
+# Environment & Secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+.secrets/
+
+# ============================================================
+# Node.js / JavaScript / TypeScript
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+.npm/
+.yarn/
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.cache/
+.parcel-cache/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+.vite/
+
+# Test coverage
+coverage/
+.nyc_output/
+lcov.info
+
+# Storybook
+storybook-static/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+htmlcov/
+.coverage
+.coverage.*
+*.egg-info/
+dist/
+eggs/
+.eggs/
+*.egg
+MANIFEST
+*.manifest
+*.spec
+site/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Go
+# ============================================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work.sum
+vendor/
+
+# ============================================================
+# Rust
+# ============================================================
+target/
+Cargo.lock
+**/*.rs.bk
+
+# ============================================================
+# Java / Kotlin / Gradle / Maven
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.gradle/
+gradle-wrapper.jar
+.mvn/wrapper/maven-wrapper.jar
+target/
+out/
+
+# ============================================================
+# Ruby
+# ============================================================
+.bundle/
+vendor/bundle/
+*.gem
+.ruby-version
+
+# ============================================================
+# Docker
+# ============================================================
+.dockerignore
+docker-compose.override.yml
+
+# ============================================================
+# Terraform
+# ============================================================
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ============================================================
+# Databases
+# ============================================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+dump.rdb
+
+# ============================================================
+# Logs & Temp
+# ============================================================
+logs/
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+tmp/
+temp/
+
+# ============================================================
+# Package manager locks (keep the one(s) you use, remove rest)
+# ============================================================
+# Uncomment to ignore lock files if desired:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
