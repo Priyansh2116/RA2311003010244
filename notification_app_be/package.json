@@ -1,0 +1,26 @@
+{
+  "name": "notification-app-be",
+  "version": "1.0.0",
+  "description": "Campus notification microservice backend",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
